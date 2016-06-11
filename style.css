@@ -1,1 +1,54 @@
- body {background:blue}
+* { font-family: Helvetica;
+	font-style: normal;
+ }
+
+h1 {
+	font-family: Trebuchet;
+	font-style: italic;
+	font-size: 4em;
+	margin: 5%;
+	padding-right: 10px;
+	color: #602020;
+	text-align: center;
+}
+
+body {
+	font-weight: bold;
+	background-attachment: fixed;
+}
+
+footer {
+	margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+#table {
+	background-color: white;
+}
+
+.heading {
+	font-style: italic;
+}
+
+.center {
+	text-align: center;
+}
+a:link {
+	color: #000099;
+}
+a:visited {
+ 	color: #ff0066;  
+}
+a:hover {
+	color: #66ff33;
+}
+a:active {
+	color: #33ccff;
+}
+
+@media only screen and (max-width: 500px){
+	h1 {
+		font-size: .2em;
+	}
+}
